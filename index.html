@@ -1,0 +1,41 @@
+<!-- Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Form Stuff</h1>
+    <form>
+
+      <fieldset>
+        <legend>User Info</legend>
+        <label for="mail">E-mail: </label>
+        <input name="mail" type="email" id="mail" placeholder="valid email address"><br>
+        <label for="pass">Password: </label>
+        <input name="password" type="password" id="pass" placeholder="complex password"><br>
+        <label for="gitName">Github: </label>
+        <input name="gitName" type="text" id="gitName"placeholder="your Github username"><br>
+      </fieldset>
+      <fieldset>
+        <legend>Subscription</legend>
+        <label for="sub1">Enterprise<label>
+        <input type="radio" name="submodel" id="sub1" value="enterprise"><br>
+        <label for="sub2">Pro<label>
+        <input type="radio" name="submodel" id="sub2" value="pro"><br>
+        <label for="sub3">Free<label>
+        <input type="radio" name="submodel" id="sub3" value="free"><br>
+      </fieldset>
+
+      <br>
+      <input type="checkbox" name"remember" id="remember" value="remember">
+      <label for="remember">Remember Me</label>
+    </form>
+  </body>
+</html>
